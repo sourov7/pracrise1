@@ -1,0 +1,213 @@
+body{margin: 0 auto;padding: 0
+
+}
+.navbar-default {
+    background-color: transparent;
+    border-color:transparent;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 15px;
+	font-size: 13px;
+    letter-spacing: 1px;
+	font-weight: 700;
+	display: inline-block;
+	margin-top: 16px;
+}
+.navbar-default .navbar-nav > li >
+ a:focus, .navbar-default .navbar-nav > 
+ li > 
+ a:hover {
+	color: #44b272;
+	background-color: transparent;
+}
+.navbar-nav > li {
+	float: left;
+	margin: 1px;
+}
+.slider{
+	background:url(../image/intro-bg2.jpg); 
+	width: 100%;
+}
+.slider-overlay{
+	width: 100%;
+	background: rgba(0,0,0,.3);
+}
+.item{
+	padding: 270px;
+	margin: 0 auto;
+	display: block;
+	
+	
+}
+
+.item h2 {
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 50px;
+
+	font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 2px;
+}
+.item p{
+	color:#ffffff;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.carousel-indicators li {
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	margin: 1px;
+	text-indent: -999px;
+	cursor: pointer;
+	/* background-color: #000\9; */
+	background-color: rgba(0,0,0,0);
+	border: 1px solid #fff;
+	border-radius: 10px;
+}
+.carousel-indicators .active {
+	width: 13px;
+	height: 13px;
+	margin: 1px;
+	background-color: #8BD185;
+	border: 1px solid #8BD185;
+}
+
+
+.about-us{
+	color: #030303;
+	padding: 100px 0;
+}
+.about-top h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 30px;
+	color:#666666;
+	font-family: tahoma;
+}
+.about-top p{
+	max-width: 700px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+    color: #666;
+}
+
+.about-icon img {
+	width: 100%;
+
+}
+.about-icon i{
+	font-size: 30px;
+
+}
+.about-icon h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+
+}
+.about-icon p{
+	font-size: 14px;
+	 color: #666;
+
+}
+.about-icon:hover i,
+.about-icon:hover h2
+{
+color: #87d37c;
+
+}
+.my-icon{
+	position: relative;
+	overflow: hidden;
+	display:block;
+
+}
+.about-overlay{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,.5);
+	top: -100%;
+	transition: 1s;
+	
+
+}
+.my-icon:hover .about-overlay{
+	top: 0%;
+	right: 0%;
+
+
+}
+.service-area {
+	background: #e1e1e1;
+	padding: 90px;
+}
+.service-top h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 30px;
+}
+ .service-top p{
+	max-width: 700px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	color: #666;
+}
+.pricing-table{
+	padding: 90px 0;
+}
+.pricing{
+	background:#39393a;
+	padding: 20px;
+	border-radius: 5px;
+	color: #fff;
+}
+.pricing-top{
+	width: 130px;
+	height:130px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.pricing-top p{
+	margin-top: 20px;
+}
+.pricing-top sup{
+	font-size: 20px;
+	top: -3px;
+	left: -3px;
+
+}
+.pricing-top em{
+	font-size: 25px;
+}
+.pricing-top span{
+	font-size: 21px;
+	margin-left: 11px;
+	text-transform: uppercase;
+}
+.pricing ul{
+	padding: 0;
+}
+.pricing ul li {
+	max-width: 150px;
+	border-bottom: 1px solid #fff;
+	list-style: none;
+	margin:0 auto;
+	padding: 15px 0;
+}
+.about-top h2{
+	text-transform: uppercase;
+	font-weight: 700;
+
+}
+.pricing:hover{
+	background: #7EC478;
+	color: #328457;
+}
+
